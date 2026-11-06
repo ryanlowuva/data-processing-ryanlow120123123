@@ -1,0 +1,7 @@
+Proposal: Predicting Amsterdam Airbnb Prices with Location Data
+
+I want to predict the nightly price of Amsterdam Airbnb listings, and find out whether location (neighbourhood, distance to the city centre) helps the model more than basic listing details like room type and number of reviews. I will compare the two feature sets using RMSE and MAE from 5-fold cross-validation.
+
+Data will be retrieved from multiple files from https://insideairbnb.com/get-the-data/, such as the detailed listings (CSV) and the neighbourhood boundaries (GeoJSON).
+
+I will be experimenting libraries such as geopandas (with shapely and pyproj), xgboost, scikit-learn and plotly.
