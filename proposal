@@ -5,3 +5,5 @@ I want to predict the nightly price of Amsterdam Airbnb listings, and find out w
 Data will be retrieved from multiple files from https://insideairbnb.com/get-the-data/, such as the detailed listings (CSV) and the neighbourhood boundaries (GeoJSON).
 
 I will be experimenting libraries such as geopandas (with shapely and pyproj), xgboost, scikit-learn and plotly.
+
+I will clean the data (including missing prices), create location features such as neighbourhood and distance to the city centre, explore the data with interactive maps, and train a default XGBoost model to compare the two feature sets.
